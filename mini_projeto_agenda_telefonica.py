@@ -1074,7 +1074,9 @@ while menu:
                     c5_ano_aniv = c5_ano_teste
                     x_ano = False
                     print("O contato", c5_nome, c5_sobrenome, "adicionado com sucesso")
-
+        else:
+            print("Não existe mais espaço na agenda")
+            
     elif opcao == "2":
         print("Contatos:")
         if c1_nome != "":
